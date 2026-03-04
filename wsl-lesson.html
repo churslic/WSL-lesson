@@ -10,11 +10,15 @@
           &family=DM+Sans:wght@400;500;600&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="../style.css" />
+  <!-- style.css is specific to cs.hmc.edu/~ccalingo
+      and is here because of the navigation menu below.
+      This line can be removed -->
+  <link rel="stylesheet" href="../style.css" /> 
   <link rel="stylesheet" href="wsl.css" />
 </head>
 <body>
 
+  <!-- Navigation menu specific to cs.hmc.edu/~ccalingo. Can be removed -->
   <nav>
       <ul class="nav-menu">
           <li><a href="../index.html">Home</a></li>
@@ -58,7 +62,8 @@
       <span class="step-badge">STEP 1</span>
       <h2>Open PowerShell</h2>
     </div>
-
+    
+    <!-- Shell Intro Section -->
     <h3>What's a shell?</h3>
     <p>
       A <span class="term" tabindex="0">shell
@@ -77,7 +82,8 @@
       </span>.
       Different operating systems use different shells.
     </p>
-
+    
+    <!-- System Architecture Diagram Accordion section -->
     <div class="accordion">
         <button class="accordion-btn" onclick="toggleAccordion(this)">
             <span>System Architecture Diagram</span>
@@ -96,6 +102,7 @@
         </div>
     </div>
 
+    <!-- Common Shells Explained Accordion Section -->
     <div class="accordion">
       <button class="accordion-btn" onclick="toggleAccordion(this)">
         <span>Common shells explained</span>
@@ -132,6 +139,7 @@
       commands — which is why we're setting up WSL on Windows!
     </p>
 
+    <!-- How to open PowerShell Section -->
     <h3>How to open PowerShell</h3>
     <ul>
       <li>
@@ -144,6 +152,7 @@
       </li>
     </ul>
 
+    <!-- First Quiz Block -->
     <div class="quiz-block" id="quiz-1">
       <h4>✦ Quick Check</h4>
       <p class="quiz-question">
@@ -395,6 +404,9 @@
       <li>
         <code>apt upgrade</code> — Actually installs the newer versions of any outdated
         packages.
+      </li>
+      <li>
+
       </li>
     </ul> 
     <p style="margin-top:0.6rem">
